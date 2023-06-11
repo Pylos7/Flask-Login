@@ -1,0 +1,22 @@
+Set Up Project Virtual Environment With Git and GitHub
+_______________________________________________________
+
+cd Desktop
+py -3 -m venv "To-Do List Manager"
+cd "To-Do List Manager"
+Scripts\activate
+git init -b development
+git remote add origin https://github.com/Pylos7/To-Do-List-Manager.git
+Add Content To Project Folder
+git add .
+git commit -m "First commit"
+git push -u -f origin development
+
+
+
+Install Required Libraries
+_____________________________
+
+pip install Flask SQLAlchemy WTForms flask-login Flask-Migrate
+
+
